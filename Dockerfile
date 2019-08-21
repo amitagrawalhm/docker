@@ -5,5 +5,6 @@ RUN yum install -y git  \
        wget
 
 CMD ["echo","Hello Dockerfile through jenkins"]
+CMD ["/bin/bash"]
 
 
